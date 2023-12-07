@@ -60,8 +60,6 @@ const App = () => {
     personService.create({ name: name.value, number: number.value });
   };
 
-  console.log(notes);
-
   return (
     <div>
       <h2>notes</h2>
